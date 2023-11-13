@@ -1,12 +1,10 @@
 import random
 
-
 def generate_random_integer(minimum, maximum):
     """
     It generate a random integer between specified minimum and maximum values.
     """
     return random.randint(minimum, maximum)
-
 
 def generate_random_operator():
     """
@@ -14,12 +12,10 @@ def generate_random_operator():
     """
     return random.choice(['+', '-', '*'])
 
-
 def calculate_result(num1, num2, operator):
     """
     It calculates the result of a mathematical expression.
     """
-    #p = f"{num1} {o} {n2}"
     if operator == '+': 
         result = num1 + num2
     elif operator == '-': 
